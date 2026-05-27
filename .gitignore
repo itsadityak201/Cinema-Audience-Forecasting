@@ -1,0 +1,94 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+.venv/
+env/
+.env
+ENV/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ========================
+# Data Files
+# ========================
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+*.feather
+data/raw/
+data/processed/
+data/external/
+
+# ========================
+# Model Files
+# ========================
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+models/
+checkpoints/
+
+# ========================
+# Logs & Outputs
+# ========================
+logs/
+*.log
+runs/
+outputs/
+results/
+
+# ========================
+# MLflow / DVC / W&B
+# ========================
+mlruns/
+.dvc/
+wandb/
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Secrets & Config
+# ========================
+.env
+.env.*
+secrets.yaml
+config/local/
